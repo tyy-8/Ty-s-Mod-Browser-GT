@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ty's Mod Manager</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Patrick+Hand&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="topbar">
+        <a href="/index.html">
+            <button>Home</button>
+          </a>
+        
+          <a href="/mods.html">
+            <button>Mods</button>
+          </a>
+    </div>
+    <h3>IF YOU SEE A TERRIBLE FONT WAIT A COUPLE SECONDS!</h3>
+    <div class="container">
+        <h1>Mods:</h1>
+        <div id="output">
+        </div>
+    </div>
+    <script>
+        // Fetch JSON data from an external file
+        fetch('./data/items.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const outputDiv = document.getElementById('output');
+                data.forEach(item => {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.innerHTML = `
+                        <div>
+                            <h2>${item.title}</h2>
+                            <a>${item.description}</a>
+                        </div>
+                        <button onclick="window.location.href = '${item.url}';">Visit!</button>
+                    `;
+                    outputDiv.appendChild(card);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching JSON data:', error);
+            });
+    </script>
+    
+
+</body>
+</html>

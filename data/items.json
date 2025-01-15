@@ -1,0 +1,70 @@
+[
+    {
+        "title": "Newtilla (GET THIS!!)",
+        "url": "https://github.com/Loafiat/Newtilla/releases/download/1.1.0/Newtilla.dll",
+        "description": "Utilla but better, by Lofiat"
+    },
+    {
+        "title": "Utilla ( ALSO GET THIS!!)",
+        "url": "https://github.com/developer9998/Utilla/releases/download/1.0.0.1/Utilla.dll",
+        "description": "Utilla but better, by Dev9998 / LegoandMars"
+    },
+
+    {
+        "title": "Bepinject-Auros",
+        "url": "https://github.com/Auros/Bepinject/releases/download/1.0.1/Bepinject-Auros.zip",
+        "description": "Uhhhh idk what this does, by Auros"
+    },
+    {
+        "title": "Extenject",
+        "url": "https://github.com/Auros/Bepinject/releases/download/1.0.1/Extenject.zip",
+        "description": "Uhhhh idk what this does, by Auros"
+    },
+
+    {
+        "title": "Computer Interface Reloaded",
+        "url": "https://github.com/NgbatzYT/ComputerInterfaceReloaded/releases/download/1.0.0/ComputerInterfaceReloaded.dll",
+        "description": "The old custom computer REMADE!, by Ngbatz"
+    },
+    {
+        "title": "Rebug",
+        "url": "https://github.com/Loafiat/Rebug/releases/download/1.0.0/Rebug.dll",
+        "description": "Adds in the 'Developer Debug UI', by Lofiat"
+    },
+    {
+        "title": "The Gorilla Watch",
+        "url": "https://github.com/developer-cody/GorillaWatch/releases/download/2.3.8-BETA/TheGorillaWatch.zip",
+        "description": "Gives you a whole bunch of mods using the Hunt Watch, by Neo Tech Gorillas"
+    },
+    
+    {
+        "title": "No More Wind",
+        "url": "https://github.com/defaultuser0-nerd/NoMoreWind/releases/download/1.2.0/NoMoreWind.dll",
+        "description": "Disables the wind, by Default User"
+    },
+
+    {
+        "title": "Gorilla Shirts",
+        "url": "https://github.com/developer9998/GorillaShirts/releases/download/1.1.6/GorillaShirts.dll",
+        "description": "Custom Shirts, by Developer 9998"
+    },
+    
+    {
+        "title": "Banana OS",
+        "url": "https://github.com/HuskyGT/Banana-OS/releases/download/1.0.8/BananaOS.dll",
+        "description": "A watch mod, by Husky"
+    },
+    
+    
+    {
+        "title": "Custom Cosmetics (NEEDS BANANA OS)",
+        "url": "https://github.com/wryser/CustomCosmetics/releases/download/1.2.5.0/CustomCosmetics.zip",
+        "description": "A cosmetic mod, by Husky"
+    },
+
+    {
+        "title": "Gorilla Cookie Clicker",
+        "url": "https://github.com/TraqVR/GorillaCookieClicker/releases/download/cookieclickv1.0.1/GorillaCookieClicker.dll",
+        "description": "A clicker mod, by TraqVR"
+    }
+]
