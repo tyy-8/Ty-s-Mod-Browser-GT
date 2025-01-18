@@ -7,7 +7,7 @@ html, body, button {
 body {
     margin: 0;
     padding: 0;
-    background-color: #ffd08a;
+    background-color: #575757;
 }
 
 .topbar{
@@ -40,7 +40,7 @@ h1 {
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 15px;
-    background-color: rgb(255, 198, 132);
+    background-color: rgb(128, 128, 128);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +76,7 @@ h1 {
     padding: 10px 15px;
     font-size: 0.9rem;
     color: white;
-    background-color: #ffa77e;
+    background-color: #686868;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -92,7 +92,7 @@ button {
     padding: 10px 15px;
     font-size: 0.9rem;
     color: white;
-    background-color: #ffa87f;
+    background-color: #686868;
     border: none;
     border-radius: 5px;
     cursor: pointer;
